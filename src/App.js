@@ -4,6 +4,7 @@ import Interactive from "./components/Interactive";
 import Creations from "./components/Creations";
 import CreationsDesktop from "./components/CreationsDesktop";
 import Footer from "./components/Footer";
+import Copyright from "./components/Copyright";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <Creations />
       <CreationsDesktop />
       <Footer />
+      <Copyright />
     </>
   );
 };

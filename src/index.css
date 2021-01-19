@@ -235,7 +235,12 @@ button {
   font-family: "Alata", sans-serif;
   color: var(--dark-gray);
 }
-
+.copyrightfem h6{
+  font-size: 1rem;
+  padding: .2rem;
+  text-transform: capitalize;
+  color: #1a1a1a;
+}
 /* @mediaqueries */
 
 @media (min-width: 900px) {
@@ -391,3 +396,4 @@ button {
     font-size: 1.5rem;
   }
 }
+
